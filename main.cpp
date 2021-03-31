@@ -10,6 +10,9 @@ void bubbleSort(int* num, int size) {
                 swap(num[j-1], num[j]);
             }
         }
+
+
+
     }
     cout << "Количество перестановок: " << count << "\nОтсортированный список: ";
     for (int i=0; i<size; i++) {
